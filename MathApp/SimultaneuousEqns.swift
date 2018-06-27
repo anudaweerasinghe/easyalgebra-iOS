@@ -10,7 +10,7 @@ import UIKit
 import SCLAlertView
 import TTGSnackbar
 
-class SimultaneuousEqns: UIViewController {
+class SimultaneuousEqns: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var eqn1Text:UILabel!
     @IBOutlet weak var eqn2Text:UILabel!
@@ -34,7 +34,20 @@ class SimultaneuousEqns: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.xAnsText.delegate = self
+        self.yAnsText.delegate = self
+
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        xAnsText.resignFirstResponder()
+        yAnsText.resignFirstResponder()
+        nextOnClick("")
+        return true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,12 +63,12 @@ class SimultaneuousEqns: UIViewController {
             
             let alertView = SCLAlertView()
             
-            alertView.showNotice("No Answers", subTitle: "You have not calculated values for both X and Y. Please try again")
+            alertView.showNotice("No Answers", subTitle: "You have not calculated values for both values of x. Please try again")
         }else if(xAnsText.text == "" && yAnsText.text == ""){
 
             let alertView = SCLAlertView()
             
-            alertView.showNotice("No Answers", subTitle: "You have not calculated values for both X and Y. Please try again")
+            alertView.showNotice("No Answers", subTitle: "You have not calculated values for both values of x. Please try again")
         }else{
             checkAns()
         }

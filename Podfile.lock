@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.2)
+  - SCLAlertView (0.8)
+  - TTGSnackbar (1.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - SCLAlertView
+  - TTGSnackbar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SCLAlertView
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  TTGSnackbar: a66e929fd17d662152ec0964990a86e966310edb
+
+PODFILE CHECKSUM: 94e6059377ca4c7be63ee12ff5bae2f4e8e39178
+
+COCOAPODS: 1.5.3

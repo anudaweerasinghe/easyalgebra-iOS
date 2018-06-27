@@ -10,7 +10,7 @@ import UIKit
 import SCLAlertView
 import TTGSnackbar
 
-class LinearEqns: UIViewController {
+class LinearEqns: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var eqnLabel: UILabel!
     @IBOutlet weak var ansXText: UITextField!
@@ -27,8 +27,21 @@ class LinearEqns: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.ansXText.delegate = self
 
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        ansXText.resignFirstResponder()
+        nextOnClick("")
+        return true
+    }
+    
     @IBAction func nextOnClick(_ sender: Any) {
         if(ansXText.text == ""){
             

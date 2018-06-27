@@ -11,7 +11,7 @@ import UIKit
 import SCLAlertView
 import TTGSnackbar
 
-class Quadratics: UIViewController {
+class Quadratics: UIViewController, UITextFieldDelegate  {
     
     @IBOutlet weak var eqnLabel: UILabel!
     @IBOutlet weak var x1Label: UITextField!
@@ -30,9 +30,20 @@ class Quadratics: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.x1Label.delegate = self
+        self.x2Label.delegate = self
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        x1Label.resignFirstResponder()
+        x2Label.resignFirstResponder()
+        onNextClick("")
+        return true
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
