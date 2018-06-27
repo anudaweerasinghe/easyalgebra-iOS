@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CFDEF1D120B5E47AD35C02C /* libPods-MathApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C29AA95544E1D410BB074D1 /* libPods-MathApp.a */; };
 		707DFB1A20E22E650028EB48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DFB1920E22E650028EB48 /* AppDelegate.swift */; };
 		707DFB1C20E22E650028EB48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DFB1B20E22E650028EB48 /* ViewController.swift */; };
 		707DFB1F20E22E650028EB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DFB1D20E22E650028EB48 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		707DFB2420E22E660028EB48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DFB2220E22E660028EB48 /* LaunchScreen.storyboard */; };
 		707DFB2F20E22E670028EB48 /* MathAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DFB2E20E22E670028EB48 /* MathAppTests.swift */; };
 		707DFB3A20E22E670028EB48 /* MathAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DFB3920E22E670028EB48 /* MathAppUITests.swift */; };
+		70DB2E8F20E2494F003840F5 /* SimultaneuousEqns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB2E8E20E2494F003840F5 /* SimultaneuousEqns.swift */; };
+		70DB2E9120E24980003840F5 /* LinearEqns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB2E9020E24980003840F5 /* LinearEqns.swift */; };
+		70DB2E9320E249B2003840F5 /* Quadratics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB2E9220E249B2003840F5 /* Quadratics.swift */; };
+		70E1A35B20E233BC00DA4A2C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 70E1A35A20E233BC00DA4A2C /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		707DFB1620E22E650028EB48 /* MathApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DFB1620E22E650028EB48 /* Easy Algebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Algebra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		707DFB1920E22E650028EB48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		707DFB1B20E22E650028EB48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		707DFB1E20E22E650028EB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		707DFB2020E22E660028EB48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		707DFB2320E22E660028EB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		707DFB2520E22E660028EB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		707DFB2A20E22E670028EB48 /* MathAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DFB2A20E22E670028EB48 /* Easy AlgebraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AlgebraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		707DFB2E20E22E670028EB48 /* MathAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathAppTests.swift; sourceTree = "<group>"; };
 		707DFB3020E22E670028EB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		707DFB3520E22E670028EB48 /* MathAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DFB3520E22E670028EB48 /* Easy AlgebraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AlgebraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		707DFB3920E22E670028EB48 /* MathAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathAppUITests.swift; sourceTree = "<group>"; };
 		707DFB3B20E22E670028EB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DB2E8E20E2494F003840F5 /* SimultaneuousEqns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneuousEqns.swift; sourceTree = "<group>"; };
+		70DB2E9020E24980003840F5 /* LinearEqns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEqns.swift; sourceTree = "<group>"; };
+		70DB2E9220E249B2003840F5 /* Quadratics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratics.swift; sourceTree = "<group>"; };
+		70E1A35A20E233BC00DA4A2C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C29AA95544E1D410BB074D1 /* libPods-MathApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E0DF9D3CF2D20CA59C6A26 /* Pods-MathApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathApp/Pods-MathApp.release.xcconfig"; sourceTree = "<group>"; };
+		F5DC5F48BD7A877EAE85D192 /* Pods-MathApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathApp/Pods-MathApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFDEF1D120B5E47AD35C02C /* libPods-MathApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,19 +90,22 @@
 		707DFB0D20E22E650028EB48 = {
 			isa = PBXGroup;
 			children = (
+				70E1A35A20E233BC00DA4A2C /* Podfile */,
 				707DFB1820E22E650028EB48 /* MathApp */,
 				707DFB2D20E22E670028EB48 /* MathAppTests */,
 				707DFB3820E22E670028EB48 /* MathAppUITests */,
 				707DFB1720E22E650028EB48 /* Products */,
+				D523123CBE00E1C7BB92DE1E /* Pods */,
+				A45B50EAF7D4500C1F370C9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		707DFB1720E22E650028EB48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				707DFB1620E22E650028EB48 /* MathApp.app */,
-				707DFB2A20E22E670028EB48 /* MathAppTests.xctest */,
-				707DFB3520E22E670028EB48 /* MathAppUITests.xctest */,
+				707DFB1620E22E650028EB48 /* Easy Algebra.app */,
+				707DFB2A20E22E670028EB48 /* Easy AlgebraTests.xctest */,
+				707DFB3520E22E670028EB48 /* Easy AlgebraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +115,9 @@
 			children = (
 				707DFB1920E22E650028EB48 /* AppDelegate.swift */,
 				707DFB1B20E22E650028EB48 /* ViewController.swift */,
+				70DB2E8E20E2494F003840F5 /* SimultaneuousEqns.swift */,
+				70DB2E9020E24980003840F5 /* LinearEqns.swift */,
+				70DB2E9220E249B2003840F5 /* Quadratics.swift */,
 				707DFB1D20E22E650028EB48 /* Main.storyboard */,
 				707DFB2020E22E660028EB48 /* Assets.xcassets */,
 				707DFB2220E22E660028EB48 /* LaunchScreen.storyboard */,
@@ -125,13 +144,31 @@
 			path = MathAppUITests;
 			sourceTree = "<group>";
 		};
+		A45B50EAF7D4500C1F370C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C29AA95544E1D410BB074D1 /* libPods-MathApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D523123CBE00E1C7BB92DE1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5DC5F48BD7A877EAE85D192 /* Pods-MathApp.debug.xcconfig */,
+				89E0DF9D3CF2D20CA59C6A26 /* Pods-MathApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		707DFB1520E22E650028EB48 /* MathApp */ = {
+		707DFB1520E22E650028EB48 /* Easy Algebra */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707DFB3E20E22E670028EB48 /* Build configuration list for PBXNativeTarget "MathApp" */;
+			buildConfigurationList = 707DFB3E20E22E670028EB48 /* Build configuration list for PBXNativeTarget "Easy Algebra" */;
 			buildPhases = (
+				6B87F5787D17CC90005F8494 /* [CP] Check Pods Manifest.lock */,
 				707DFB1220E22E650028EB48 /* Sources */,
 				707DFB1320E22E650028EB48 /* Frameworks */,
 				707DFB1420E22E650028EB48 /* Resources */,
@@ -140,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = MathApp;
+			name = "Easy Algebra";
 			productName = MathApp;
-			productReference = 707DFB1620E22E650028EB48 /* MathApp.app */;
+			productReference = 707DFB1620E22E650028EB48 /* Easy Algebra.app */;
 			productType = "com.apple.product-type.application";
 		};
-		707DFB2920E22E670028EB48 /* MathAppTests */ = {
+		707DFB2920E22E670028EB48 /* Easy AlgebraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707DFB4120E22E670028EB48 /* Build configuration list for PBXNativeTarget "MathAppTests" */;
+			buildConfigurationList = 707DFB4120E22E670028EB48 /* Build configuration list for PBXNativeTarget "Easy AlgebraTests" */;
 			buildPhases = (
 				707DFB2620E22E670028EB48 /* Sources */,
 				707DFB2720E22E670028EB48 /* Frameworks */,
@@ -158,14 +195,14 @@
 			dependencies = (
 				707DFB2C20E22E670028EB48 /* PBXTargetDependency */,
 			);
-			name = MathAppTests;
+			name = "Easy AlgebraTests";
 			productName = MathAppTests;
-			productReference = 707DFB2A20E22E670028EB48 /* MathAppTests.xctest */;
+			productReference = 707DFB2A20E22E670028EB48 /* Easy AlgebraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		707DFB3420E22E670028EB48 /* MathAppUITests */ = {
+		707DFB3420E22E670028EB48 /* Easy AlgebraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707DFB4420E22E670028EB48 /* Build configuration list for PBXNativeTarget "MathAppUITests" */;
+			buildConfigurationList = 707DFB4420E22E670028EB48 /* Build configuration list for PBXNativeTarget "Easy AlgebraUITests" */;
 			buildPhases = (
 				707DFB3120E22E670028EB48 /* Sources */,
 				707DFB3220E22E670028EB48 /* Frameworks */,
@@ -176,9 +213,9 @@
 			dependencies = (
 				707DFB3720E22E670028EB48 /* PBXTargetDependency */,
 			);
-			name = MathAppUITests;
+			name = "Easy AlgebraUITests";
 			productName = MathAppUITests;
-			productReference = 707DFB3520E22E670028EB48 /* MathAppUITests.xctest */;
+			productReference = 707DFB3520E22E670028EB48 /* Easy AlgebraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 707DFB1120E22E650028EB48 /* Build configuration list for PBXProject "MathApp" */;
+			buildConfigurationList = 707DFB1120E22E650028EB48 /* Build configuration list for PBXProject "Easy Algebra" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +254,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				707DFB1520E22E650028EB48 /* MathApp */,
-				707DFB2920E22E670028EB48 /* MathAppTests */,
-				707DFB3420E22E670028EB48 /* MathAppUITests */,
+				707DFB1520E22E650028EB48 /* Easy Algebra */,
+				707DFB2920E22E670028EB48 /* Easy AlgebraTests */,
+				707DFB3420E22E670028EB48 /* Easy AlgebraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +268,7 @@
 			files = (
 				707DFB2420E22E660028EB48 /* LaunchScreen.storyboard in Resources */,
 				707DFB2120E22E660028EB48 /* Assets.xcassets in Resources */,
+				70E1A35B20E233BC00DA4A2C /* Podfile in Resources */,
 				707DFB1F20E22E650028EB48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +289,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B87F5787D17CC90005F8494 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		707DFB1220E22E650028EB48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DB2E8F20E2494F003840F5 /* SimultaneuousEqns.swift in Sources */,
+				70DB2E9120E24980003840F5 /* LinearEqns.swift in Sources */,
 				707DFB1C20E22E650028EB48 /* ViewController.swift in Sources */,
 				707DFB1A20E22E650028EB48 /* AppDelegate.swift in Sources */,
+				70DB2E9320E249B2003840F5 /* Quadratics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +344,12 @@
 /* Begin PBXTargetDependency section */
 		707DFB2C20E22E670028EB48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 707DFB1520E22E650028EB48 /* MathApp */;
+			target = 707DFB1520E22E650028EB48 /* Easy Algebra */;
 			targetProxy = 707DFB2B20E22E670028EB48 /* PBXContainerItemProxy */;
 		};
 		707DFB3720E22E670028EB48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 707DFB1520E22E650028EB48 /* MathApp */;
+			target = 707DFB1520E22E650028EB48 /* Easy Algebra */;
 			targetProxy = 707DFB3620E22E670028EB48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,16 +490,18 @@
 		};
 		707DFB3F20E22E670028EB48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DC5F48BD7A877EAE85D192 /* Pods-MathApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MWLYN7ZC75;
 				INFOPLIST_FILE = MathApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anuda.MathApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuda.EasyAlgebra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,16 +510,18 @@
 		};
 		707DFB4020E22E670028EB48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E0DF9D3CF2D20CA59C6A26 /* Pods-MathApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MWLYN7ZC75;
 				INFOPLIST_FILE = MathApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anuda.MathApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuda.EasyAlgebra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,7 +545,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathApp.app/MathApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Algebra.app/Easy Algebra";
 			};
 			name = Debug;
 		};
@@ -500,7 +566,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathApp.app/MathApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Algebra.app/Easy Algebra";
 			};
 			name = Release;
 		};
@@ -547,7 +613,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		707DFB1120E22E650028EB48 /* Build configuration list for PBXProject "MathApp" */ = {
+		707DFB1120E22E650028EB48 /* Build configuration list for PBXProject "Easy Algebra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707DFB3C20E22E670028EB48 /* Debug */,
@@ -556,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707DFB3E20E22E670028EB48 /* Build configuration list for PBXNativeTarget "MathApp" */ = {
+		707DFB3E20E22E670028EB48 /* Build configuration list for PBXNativeTarget "Easy Algebra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707DFB3F20E22E670028EB48 /* Debug */,
@@ -565,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707DFB4120E22E670028EB48 /* Build configuration list for PBXNativeTarget "MathAppTests" */ = {
+		707DFB4120E22E670028EB48 /* Build configuration list for PBXNativeTarget "Easy AlgebraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707DFB4220E22E670028EB48 /* Debug */,
@@ -574,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707DFB4420E22E670028EB48 /* Build configuration list for PBXNativeTarget "MathAppUITests" */ = {
+		707DFB4420E22E670028EB48 /* Build configuration list for PBXNativeTarget "Easy AlgebraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707DFB4520E22E670028EB48 /* Debug */,
